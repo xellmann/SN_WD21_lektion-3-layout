@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: arial;
+}
+.container {
+    border: 1px solid black;
+    display: flex;
+    /* flex-direction: column;  Spalte */
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+}
+.navbar {
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+.links {
+    width 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.links a {
+    margin-right: 40px;
+}
+.square {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+    border: 1px solid black;
+}
